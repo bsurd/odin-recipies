@@ -1,0 +1,44 @@
+* {
+  background-color: #6B818C;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #CC2936;
+  background-color: #F3E9DC;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  font-size: 20px;
+}
+
+li {
+  margin: 15px;
+  transition: transform .1s ease;
+}
+
+li:hover {
+  transform: scale(1.05)
+}
+
+li:active {
+  transform: scale(.95);
+}
+
+a {
+  border-radius: 10px;
+  border: none;
+  background-color: #F3E9DC;
+  color: #CC2936;
+  font-size: 18px;
+  padding: 8px 12px;
+  text-align: center;
+  margin: 100px, 0px;
+  text-decoration: none;
+}
